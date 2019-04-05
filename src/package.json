@@ -1,0 +1,345 @@
+{
+  "name": "Inter-domain_Optimization_Trigger_in_a_PCE-based_Environment",
+  "description": "computer networks; particularly triggering optimization of inter-domain paths by utilizing computation elements of a network",
+  "owner": {
+    "login": "TurboPatent",
+    "type": "organization"
+  },
+  "license": "MIT",
+  "private": false,
+  "details": {
+    "counts": {
+      "termCount": 179,
+      "claimCount": 1,
+      "independentCount": 1,
+      "drawingCount": 3,
+      "glossaryCount": 0
+    },
+    "briefDescriptions": [
+      "<p>illustrates an <span data-role=\"tag\" data-value=\"4b09bf94-0ed6-b86a-b419-85f1e2aece55\" id=\"idf9b9402d-4ef4-770c-9cb7-f656b13d6baa\" data-type=\"drawingObject\">item 100</span> in accordance with one embodiment.</p>",
+      "<p>illustrates an <span data-role=\"tag\" data-value=\"b09ebd23-65f4-dc3f-60c9-9d8777a82584\" id=\"idf7150564-0093-e2da-7588-12d109538cd2\" data-type=\"drawingObject\">exemplary router 200</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"2b1fef94-2352-f4bd-e82c-7be1384b5ef0\" id=\"id208954e2-7e1d-0b95-d412-14e97cd25600\" data-type=\"drawingObject\">sequence 300</span> in accordance with one embodiment.</p>"
+    ],
+    "parts": [
+      {
+        "name": "item",
+        "number": 100
+      },
+      {
+        "name": "area",
+        "number": 102
+      },
+      {
+        "name": "area",
+        "number": 104
+      },
+      {
+        "name": "area",
+        "number": 106
+      },
+      {
+        "name": "area",
+        "number": 108
+      },
+      {
+        "name": "area",
+        "number": 110
+      },
+      {
+        "name": "exemplary router",
+        "number": 200
+      },
+      {
+        "name": "network interfaces",
+        "number": 202
+      },
+      {
+        "name": "processor",
+        "number": 204
+      },
+      {
+        "name": "system bus",
+        "number": 206
+      },
+      {
+        "name": "memory",
+        "number": 208
+      },
+      {
+        "name": "PCC/PCE process",
+        "number": 210
+      },
+      {
+        "name": "PCC/PCE process",
+        "number": 212
+      },
+      {
+        "name": "PCC/PCE process",
+        "number": 214
+      },
+      {
+        "name": "Routing Information Base (RIB)",
+        "number": 216
+      },
+      {
+        "name": "routing table",
+        "number": 218
+      },
+      {
+        "name": "router operating system",
+        "number": 220
+      },
+      {
+        "name": "TE services",
+        "number": 222
+      },
+      {
+        "name": "sequence",
+        "number": 300
+      },
+      {
+        "name": "step",
+        "number": 302
+      },
+      {
+        "name": "step",
+        "number": 304
+      },
+      {
+        "name": "step",
+        "number": 306
+      },
+      {
+        "name": "step",
+        "number": 308
+      },
+      {
+        "name": "step",
+        "number": 310
+      },
+      {
+        "name": "step",
+        "number": 312
+      },
+      {
+        "name": "step",
+        "number": 314
+      },
+      {
+        "name": "step",
+        "number": 316
+      },
+      {
+        "name": "step",
+        "number": 318
+      },
+      {
+        "name": "step",
+        "number": 320
+      },
+      {
+        "name": "step",
+        "number": 322
+      },
+      {
+        "name": "step",
+        "number": 324
+      },
+      {
+        "name": "step",
+        "number": 326
+      },
+      {
+        "name": "step",
+        "number": 328
+      },
+      {
+        "name": "step",
+        "number": 330
+      }
+    ],
+    "terms": [
+      "term \"level\"",
+      "network's",
+      "Routing Information Base (RIB)",
+      "area A",
+      "backbone area A",
+      "routers A-D",
+      "area A1-A",
+      "incorporated above",
+      "ABRs",
+      "addition",
+      "IGP Advertisements",
+      "IGP Advertisement",
+      "inter alia",
+      "appearance",
+      "areas",
+      "area",
+      "\"backbone\" area",
+      "term area",
+      "attributes",
+      "associated attributes",
+      "benefit",
+      "system bus",
+      "changes",
+      "change",
+      "network node changes",
+      "signaling circuitry",
+      "collection",
+      "computer",
+      "copies",
+      "cost",
+      "data",
+      "forwarding information database",
+      "forwarding decisions",
+      "schematic block diagram",
+      "event domain",
+      "its domain",
+      "intradomain router E",
+      "Resource ReSerVation Protocol-Traffic Engineering",
+      "Traffic Engineering",
+      "its entirety",
+      "ethernet",
+      "event",
+      "examples",
+      "example",
+      "Internet Packet Exchange",
+      "exemplary",
+      "extensions",
+      "FDDI",
+      "figure",
+      "flowchart",
+      "functions",
+      "TE functions",
+      "GMPLS",
+      "predetermined IGPs",
+      "information",
+      "next-hop information",
+      "routing information",
+      "share full network topology information",
+      "installation",
+      "instructions",
+      "program instructions",
+      "Fiber Distributed Data Interface",
+      "network interfaces",
+      "present invention",
+      "january",
+      "level",
+      "areas and levels",
+      "link",
+      "communication link",
+      "physical links",
+      "storage locations",
+      "necessary elements or logic",
+      "LSRs",
+      "other LSRs",
+      "manner",
+      "memory means",
+      "similar meaning",
+      "various computer-readable media",
+      "memory",
+      "error message",
+      "RSVP messages",
+      "associated metric",
+      "Asynchronous Transfer Mode",
+      "networks",
+      "network",
+      "exemplary computer network",
+      "synchronous optical networks",
+      "routers and nodes",
+      "head end node",
+      "exemplary nodes",
+      "head-end node",
+      "requesting head-end node",
+      "notification",
+      "event notification",
+      "number",
+      "IGP Extension Object",
+      "network operations",
+      "optimization",
+      "conventional OSPF",
+      "data packets",
+      "paths",
+      "event PCE",
+      "other PCEs",
+      "receiving PCE",
+      "source PCE",
+      "its local source PCE",
+      "plurality",
+      "portions",
+      "reachable destination address prefixes",
+      "destination prefixes",
+      "PCC/PCE process",
+      "processor",
+      "other processor",
+      "software programs",
+      "protocols",
+      "different communication protocols",
+      "network communication protocols",
+      "User Datagram Protocol",
+      "conventional distance-vector protocols",
+      "their interior gateway protocol",
+      "Transmission Control Protocol/Internet Protocol",
+      "IS-IS protocols",
+      "link-state protocols",
+      "link-state protocol",
+      "Frame Relay protocol",
+      "Resource ReSerVation Protocol",
+      "routing protocols",
+      "wireless protocols",
+      "reference",
+      "Frame Relay",
+      "request",
+      "optimization request",
+      "received optimization request",
+      "routes",
+      "best paths/routes",
+      "routers",
+      "router",
+      "border routers",
+      "border router",
+      "area border routers",
+      "their area border routers",
+      "exemplary router",
+      "intradomain router",
+      "L1L2 router",
+      "2 (L1L2) routers",
+      "other routers",
+      "RSVP",
+      "RSVP-TE",
+      "sequence",
+      "software processes and/or services",
+      "routing services",
+      "RSVP services",
+      "TE services",
+      "Area A0 shares",
+      "shown",
+      "simplicity",
+      "SONET",
+      "state",
+      "steps",
+      "step",
+      "data structures",
+      "software programs and data structures",
+      "support",
+      "Generalized Multi-Protocol Label Switching",
+      "single autonomous system",
+      "router operating system",
+      "table",
+      "routing table",
+      "TE-LSPs",
+      "inventive technique",
+      "terms",
+      "network topology",
+      "LSP Tunnels",
+      "using",
+      "cost value",
+      "variety",
+      "view",
+      "identical view",
+      "within"
+    ],
+    "glossary": []
+  },
+  "repository": "https://github.com/TurboPatent/Inter-domain_Optimization_Trigger_in_a_PCE-based_Environment"
+}

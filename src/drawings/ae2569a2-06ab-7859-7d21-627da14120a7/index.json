@@ -1,0 +1,1259 @@
+{
+  "isLandscape": false,
+  "drawingData": {
+    "cells": [
+      {
+        "type": "tp.Element",
+        "shape": "numberLabel",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"e592b6de-cd1f-2f54-59c0-57d722b1655f\" id=\"id6584a1ad-a4c0-d3b3-696e-310e54ee0552\" data-type=\"term\">sequence</span></p>",
+        "position": {
+          "x": 603.2785415649414,
+          "y": 17.6875
+        },
+        "size": {
+          "width": 28.346457481384277,
+          "height": 28.346457481384277
+        },
+        "angle": 0,
+        "label": "",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "only",
+        "id": "31803a7b-cf3b-475f-88af-a906abcfbc94",
+        "z": 1,
+        "objectID": "2b1fef94-2352-f4bd-e82c-7be1384b5ef0",
+        "number": 0
+      },
+      {
+        "type": "tp.Element",
+        "shape": "pill",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id8b12fd52-0fbc-3147-abbc-4bc91c563465\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 212,
+          "y": 44
+        },
+        "size": {
+          "width": 226.77165985107422,
+          "height": 26.675224700243977
+        },
+        "angle": 0,
+        "label": "<p>start</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "routing": "straight",
+        "arrowheads": "neither",
+        "id": "5623d6d0-54bf-4cbf-b464-4c10b503606d",
+        "z": 2,
+        "labelLayout": {
+          "labelBoxWidth": 188.97637939453125,
+          "fullString": "START",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "START",
+              "width": 34.358795166015625,
+              "x": 77.30879211425781,
+              "y": 0.0029481307983409977
+            }
+          ],
+          "textWidth": 34.358795166015625,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "dc07a11b-12bd-af59-39ab-9db4cfbec44b",
+        "number": 2
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id7b39f6cf-d844-6cbf-87a3-1db1fcf7619a\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 84.00000000000024
+        },
+        "size": {
+          "width": 227,
+          "height": 23
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"984a03aa-a3d4-a0a7-b5e1-4450c78cb07d\" id=\"id65f0ad93-26b8-9c38-b50e-e1d8536fd8e1\" data-type=\"term\">event PCE</span>&nbsp;detects event</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "b0c43a2a-3ee2-4f7a-90e7-978a14d8d90c",
+        "z": 3,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "EVENT PCE DETECTS EVENT",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "EVENT PCE DETECTS EVENT",
+              "width": 160.87855529785156,
+              "x": 29.28119659423828,
+              "y": -1.8346640213012684
+            }
+          ],
+          "textWidth": 160.87855529785156,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "f345820a-e597-cd80-5738-c12670260f63",
+        "number": 4
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "5623d6d0-54bf-4cbf-b464-4c10b503606d"
+        },
+        "target": {
+          "id": "b0c43a2a-3ee2-4f7a-90e7-978a14d8d90c"
+        },
+        "id": "9ba4b303-7e01-47a2-ace6-3629fa72feaa",
+        "z": 4,
+        "objectID": "9c1c040b-cffe-ca94-ae7f-39a6651ba875"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"ide4886d11-5b7c-fc96-89b2-7f194d86d28c\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 120.3259365420055
+        },
+        "size": {
+          "width": 227,
+          "height": 42
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"984a03aa-a3d4-a0a7-b5e1-4450c78cb07d\" id=\"id62799668-b57a-b0c9-2c75-8ab966f62887\" data-type=\"term\">event PCE</span>&nbsp;sends <span data-role=\"tag\" data-value=\"328989da-ed8c-7cbc-a52a-b1ac86d75906\" id=\"id733831da-841e-935f-a341-d38c02c0da9a\" data-type=\"term\">event notification</span>&nbsp;to <span data-role=\"tag\" data-value=\"22c0fc4e-ebaa-5538-c67b-d13db5294d42\" id=\"id58e3246e-3310-8961-bc00-b839bbbb2fa7\" data-type=\"term\">other PCEs</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "42244d33-031c-4f8f-95c7-63b9b6b22274",
+        "z": 5,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "EVENT PCE SENDS EVENT NOTIFICATION TO OTHER PCES",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "EVENT PCE SENDS EVENT",
+              "width": 150.20919799804688,
+              "x": 34.615875244140625,
+              "y": -2.834681817626951
+            },
+            {
+              "text": "NOTIFICATION TO OTHER PCES",
+              "width": 180.13079833984375,
+              "x": 19.655075073242188,
+              "y": 18.165355682373047
+            }
+          ],
+          "textWidth": 180.13079833984375,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "a4f3a678-aac4-e724-d146-bf62b0220caf",
+        "number": 6
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "b0c43a2a-3ee2-4f7a-90e7-978a14d8d90c"
+        },
+        "target": {
+          "id": "42244d33-031c-4f8f-95c7-63b9b6b22274"
+        },
+        "id": "ef6e1c0f-56d3-4ca0-bc01-f03ea257f833",
+        "z": 6,
+        "objectID": "44832073-a26d-9b61-7cfe-469a17f6baaf"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id537ca02d-c244-df1f-2805-e8dd1343074f\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 179.73497793509537
+        },
+        "size": {
+          "width": 227,
+          "height": 40
+        },
+        "angle": 0,
+        "label": "<p>other PCE receives <span data-role=\"tag\" data-value=\"328989da-ed8c-7cbc-a52a-b1ac86d75906\" id=\"id8dfcfa2b-7f58-5d97-a902-091075e2f284\" data-type=\"term\">event notification</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "b8ba13bf-71d8-4e87-a820-41cd988fdbe1",
+        "z": 7,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "OTHER PCE RECEIVES EVENT NOTIFICATION",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "OTHER PCE RECEIVES EVENT",
+              "width": 167.0833740234375,
+              "x": 26.178787231445312,
+              "y": -3.834681817626951
+            },
+            {
+              "text": "NOTIFICATION",
+              "width": 83.67835998535156,
+              "x": 67.88129425048828,
+              "y": 17.165355682373047
+            }
+          ],
+          "textWidth": 167.0833740234375,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "e8a0866a-77bb-259a-0ef7-72a3e45eac1a",
+        "number": 8
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "42244d33-031c-4f8f-95c7-63b9b6b22274"
+        },
+        "target": {
+          "id": "b8ba13bf-71d8-4e87-a820-41cd988fdbe1"
+        },
+        "id": "9fb50b6b-115f-4f09-8d2c-26b2bc771d7d",
+        "z": 8,
+        "objectID": "f984d7f9-6cea-fa5e-c9c4-b408ab2dcf9c"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "diamond",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id0c2a309b-0c0a-c234-f963-62b75dbf426b\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 234.14377036731767
+        },
+        "size": {
+          "width": 227,
+          "height": 52
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"37521e5c-2dac-f14a-b42d-5dbcb0fd17f0\" id=\"id1da34a08-9175-0c68-69cb-13d4fbe8c0ed\" data-type=\"term\">benefit</span>&nbsp;any <span data-role=\"tag\" data-value=\"fb5aff6c-cbb1-4fac-7c1d-bb8f57c26fd1\" id=\"id3e3c194f-f6a7-98bd-c5c7-ff020c5d7620\" data-type=\"term\">TE-LSPs</span>?</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "de097326-8da9-4039-933f-ab65fe90a7d3",
+        "z": 9,
+        "labelLayout": {
+          "labelBoxWidth": 134.79812622070312,
+          "fullString": "BENEFIT ANY TE-LSPS?",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "BENEFIT ANY TE-LSPS?",
+              "width": 132.58790588378906,
+              "x": 1.1051101684570312,
+              "y": -0.14987150268554572
+            }
+          ],
+          "textWidth": 132.58790588378906,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "d4f74c56-26fd-f160-109c-eaa64fb0789d",
+        "number": 10
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "b8ba13bf-71d8-4e87-a820-41cd988fdbe1"
+        },
+        "target": {
+          "id": "de097326-8da9-4039-933f-ab65fe90a7d3"
+        },
+        "id": "9127b943-d85e-4a21-8cf2-58cb728da925",
+        "z": 10,
+        "objectID": "13bb078b-48f5-ef75-bbe3-a36193e51658"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id03cf2c62-b394-e7de-ee9f-b2657cf63534\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 324.14377036731776
+        },
+        "size": {
+          "width": 227,
+          "height": 40
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"a1845ee0-4542-e8a6-d9f1-b5ef6b0ab845\" id=\"id68c2c07b-9831-7163-f35a-cb91de58ae76\" data-type=\"term\">source PCE</span>&nbsp;sends <span data-role=\"tag\" data-value=\"328989da-ed8c-7cbc-a52a-b1ac86d75906\" id=\"id19d8be05-e430-7557-9f9d-cdd9f90e0c43\" data-type=\"term\">event notification</span>&nbsp;to <span data-role=\"tag\" data-value=\"f998c1cb-056b-a118-8a30-3e0ea2d0b7f6\" id=\"idecfb3b02-2dae-a738-99d4-9db223c758ce\" data-type=\"term\">its domain</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "4520fa8e-8e1d-422f-b809-dd45c98a4383",
+        "z": 11,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "SOURCE PCE SENDS EVENT NOTIFICATION TO ITS DOMAIN",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "SOURCE PCE SENDS EVENT",
+              "width": 161.39791870117188,
+              "x": 29.021514892578125,
+              "y": -3.834681817626951
+            },
+            {
+              "text": "NOTIFICATION TO ITS DOMAIN",
+              "width": 180.2947998046875,
+              "x": 19.573074340820312,
+              "y": 17.165355682373047
+            }
+          ],
+          "textWidth": 180.2947998046875,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "6edfc304-723e-06ea-6337-8f7aebfe0e0f",
+        "number": 12
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "de097326-8da9-4039-933f-ab65fe90a7d3"
+        },
+        "target": {
+          "id": "4520fa8e-8e1d-422f-b809-dd45c98a4383"
+        },
+        "id": "cebf4176-8172-481a-942c-d2626fa0ae4e",
+        "z": 12,
+        "objectID": "bd33efa6-de60-5d9e-b96b-42b004ab8bf6",
+        "label": "<p>YES</p>"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"iddcd3c1aa-9bf1-1025-f27e-d566614d6c27\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 380.55251923172705
+        },
+        "size": {
+          "width": 227,
+          "height": 23
+        },
+        "angle": 0,
+        "label": "<p>LSR receives <span data-role=\"tag\" data-value=\"328989da-ed8c-7cbc-a52a-b1ac86d75906\" id=\"id9c2685e9-2c23-3351-bfa8-baee5b97690e\" data-type=\"term\">event notification</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "c0e5458b-ded0-4ff5-ad66-31b89155da7b",
+        "z": 13,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "LSR RECEIVES EVENT NOTIFICATION",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "LSR RECEIVES EVENT NOTIFICATION",
+              "width": 209.7881317138672,
+              "x": 4.826408386230469,
+              "y": -1.8346640213012684
+            }
+          ],
+          "textWidth": 209.7881317138672,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "9ed46fb8-c79a-3faf-6c54-5cabc73a596e",
+        "number": 14
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "4520fa8e-8e1d-422f-b809-dd45c98a4383"
+        },
+        "target": {
+          "id": "c0e5458b-ded0-4ff5-ad66-31b89155da7b"
+        },
+        "id": "e1f914be-8086-4d23-9ad8-446171c70afe",
+        "z": 14,
+        "objectID": "0a924153-98a2-34a0-0745-95deab6521fe"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "diamond",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id6fb12045-9bcd-fb12-e50c-30a94d16f275\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 422.8751815199789
+        },
+        "size": {
+          "width": 227,
+          "height": 70
+        },
+        "angle": 0,
+        "label": "<p>is LSR a <span data-role=\"tag\" data-value=\"02a147d9-8950-bb62-3138-04e6c668766b\" id=\"id6fea2761-ed9f-53b1-713f-1001d250ea01\" data-type=\"term\">head end node</span>?</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "88941e7e-1516-4d5a-9088-2cac85ec81ba",
+        "z": 15,
+        "labelLayout": {
+          "labelBoxWidth": 134.7981414794922,
+          "fullString": "IS LSR A HEAD END NODE?",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "IS LSR A HEAD END",
+              "width": 113.57261657714844,
+              "x": 10.612762451171875,
+              "y": -7.051744767761228
+            },
+            {
+              "text": "NODE?",
+              "width": 41.14671325683594,
+              "x": 46.825714111328125,
+              "y": 13.94829273223877
+            }
+          ],
+          "textWidth": 113.57261657714844,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "706d3a3e-4f6a-dde6-f826-8091817a226d",
+        "number": 16
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "c0e5458b-ded0-4ff5-ad66-31b89155da7b"
+        },
+        "target": {
+          "id": "88941e7e-1516-4d5a-9088-2cac85ec81ba"
+        },
+        "id": "5950937a-512e-41ea-aec0-8850e6a0cb5b",
+        "z": 16,
+        "objectID": "771b07be-ebbf-6b75-9d8f-a06947ebc2d9"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"idd5abdecb-2a80-b99f-869c-42f9667923cd\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 529.8751815199782
+        },
+        "size": {
+          "width": 227,
+          "height": 63
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"02a147d9-8950-bb62-3138-04e6c668766b\" id=\"idf98033f2-6bcd-deff-b2b0-cf7d1999409f\" data-type=\"term\">head end node</span>&nbsp;sends <span data-role=\"tag\" data-value=\"ff3b18ad-cffb-c999-a822-710b35013d62\" id=\"idce6f779f-c628-f452-9167-048fc1d33a79\" data-type=\"term\">optimization</span>&nbsp;<span data-role=\"tag\" data-value=\"94a7bbd1-9497-d584-d1e5-f9e4816db440\" id=\"id7c2c786c-7162-c4c5-3f48-0219aa9f114b\" data-type=\"term\">request</span>&nbsp;to <span data-role=\"tag\" data-value=\"a1845ee0-4542-e8a6-d9f1-b5ef6b0ab845\" id=\"idc193474f-1885-861e-68e0-3ec88606d779\" data-type=\"term\">source PCE</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "640af9de-b21c-4f83-9366-a6ebf1b63d74",
+        "z": 17,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "HEAD END NODE SENDS OPTIMIZATION REQUEST TO SOURCE PCE",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "HEAD END NODE SENDS",
+              "width": 146.50091552734375,
+              "x": 36.47001647949219,
+              "y": -2.8347005676269497
+            },
+            {
+              "text": "OPTIMIZATION REQUEST TO SOURCE",
+              "width": 216.67630004882812,
+              "x": 1.38232421875,
+              "y": 18.165336932373048
+            },
+            {
+              "text": "PCE",
+              "width": 22.668960571289062,
+              "x": 98.38599395751953,
+              "y": 39.16537443237304
+            }
+          ],
+          "textWidth": 216.67630004882812,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "30797f82-5dea-f90c-e463-410507537a4d",
+        "number": 18
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "88941e7e-1516-4d5a-9088-2cac85ec81ba"
+        },
+        "target": {
+          "id": "640af9de-b21c-4f83-9366-a6ebf1b63d74"
+        },
+        "id": "05691ace-7224-4fbe-9b9c-7b64204642d7",
+        "z": 18,
+        "objectID": "f0cfe111-af7b-e1f0-1042-ad2889420b11",
+        "label": "<p>YES</p>"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"idac8a01ea-4384-81da-9520-96c73457d3c0\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 609.2499695404927
+        },
+        "size": {
+          "width": 227,
+          "height": 42
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"a1845ee0-4542-e8a6-d9f1-b5ef6b0ab845\" id=\"id7fba54b8-b10a-6dc0-0b22-fb55bc594dd4\" data-type=\"term\">source PCE</span>&nbsp;receives <span data-role=\"tag\" data-value=\"e9f1ff85-a836-8d3c-3726-e02eea2ec172\" id=\"id5d0fc227-6cd1-c5b8-039b-61d3da041d11\" data-type=\"term\">optimization request</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "51be90c4-74e0-48ef-95a9-275685078124",
+        "z": 19,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "SOURCE PCE RECEIVES OPTIMIZATION REQUEST",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "SOURCE PCE RECEIVES",
+              "width": 134.68353271484375,
+              "x": 42.37870788574219,
+              "y": -2.834681817626951
+            },
+            {
+              "text": "OPTIMIZATION REQUEST",
+              "width": 144.6148681640625,
+              "x": 37.41304016113281,
+              "y": 18.165355682373047
+            }
+          ],
+          "textWidth": 144.6148681640625,
+          "textHeight": 42.000074999999995
+        },
+        "objectID": "3eae6b77-464f-72bb-e9dc-9319f62b2989",
+        "number": 20
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "640af9de-b21c-4f83-9366-a6ebf1b63d74"
+        },
+        "target": {
+          "id": "51be90c4-74e0-48ef-95a9-275685078124"
+        },
+        "id": "c24b5031-d632-4252-825f-722cee4d9320",
+        "z": 20,
+        "objectID": "0f967679-aeb1-baec-95ed-03ed48e54787"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"idf1a0df1b-665d-0013-1667-31f3464a2732\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 669.6586494603441
+        },
+        "size": {
+          "width": 227,
+          "height": 81
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"a1845ee0-4542-e8a6-d9f1-b5ef6b0ab845\" id=\"idcb05ad21-8b53-44bc-42d5-3d626d39bb25\" data-type=\"term\">source PCE</span>&nbsp;checks if TE-LSP would <span data-role=\"tag\" data-value=\"37521e5c-2dac-f14a-b42d-5dbcb0fd17f0\" id=\"idcd88fa6d-73a3-f917-f279-220be687b4ce\" data-type=\"term\">benefit</span>&nbsp;from <span data-role=\"tag\" data-value=\"ff3b18ad-cffb-c999-a822-710b35013d62\" id=\"id4fdd3fe9-0abc-10b3-8afe-55a4b9a33c68\" data-type=\"term\">optimization</span>&nbsp;based on <span data-role=\"tag\" data-value=\"60c5c793-7fb3-cec3-8397-a8ea093bfcc7\" id=\"id8a59e9b4-179d-e8f1-4141-d84d264d111b\" data-type=\"term\">event domain</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "id": "bb1333c1-f40a-4a82-9b7a-e08f48ed910d",
+        "z": 21,
+        "labelLayout": {
+          "labelBoxWidth": 219.44094848632812,
+          "fullString": "SOURCE PCE CHECKS IF TE-LSP WOULD BENEFIT FROM OPTIMIZATION BASED ON EVENT DOMAIN",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "SOURCE PCE CHECKS IF TE-LSP",
+              "width": 183.33799743652344,
+              "x": 18.051475524902344,
+              "y": -4.3347193176269485
+            },
+            {
+              "text": "WOULD BENEFIT FROM",
+              "width": 140.47833251953125,
+              "x": 39.48130798339844,
+              "y": 16.66531818237305
+            },
+            {
+              "text": "OPTIMIZATION BASED ON EVENT",
+              "width": 193.1690673828125,
+              "x": 13.135940551757812,
+              "y": 37.66535568237305
+            },
+            {
+              "text": "DOMAIN",
+              "width": 52.626983642578125,
+              "x": 83.406982421875,
+              "y": 58.665393182373045
+            }
+          ],
+          "textWidth": 193.1690673828125,
+          "textHeight": 84.00014999999999
+        },
+        "objectID": "2ac75135-0228-db38-b6a8-f640c5ecbe51",
+        "number": 22
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "51be90c4-74e0-48ef-95a9-275685078124"
+        },
+        "target": {
+          "id": "bb1333c1-f40a-4a82-9b7a-e08f48ed910d"
+        },
+        "id": "50a3541c-425c-47aa-84ce-d62f878b44f7",
+        "z": 22,
+        "objectID": "e80901af-ec15-f78d-afa9-f71e5e90e220"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "diamond",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id1ba7e545-20fa-db9b-2a2e-e7150f9c5d81\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 211.8858299255371,
+          "y": 769.0673293801956
+        },
+        "size": {
+          "width": 227,
+          "height": 55.05767369126035
+        },
+        "angle": 0,
+        "label": "<p><span data-role=\"tag\" data-value=\"37521e5c-2dac-f14a-b42d-5dbcb0fd17f0\" id=\"idb5cba9b7-9a93-1dc8-c854-fc6898c6bfbe\" data-type=\"term\">benefit</span>&nbsp;that te-lsp?</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position11",
+        "id": "152bcd5c-9a2e-4f74-b2ce-ba798635baf9",
+        "z": 23,
+        "labelLayout": {
+          "labelBoxWidth": 134.79823303222656,
+          "fullString": "BENEFIT THAT TE-LSP?",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "BENEFIT THAT TE-LSP?",
+              "width": 130.0367431640625,
+              "x": 2.3807449340820312,
+              "y": 0.4210227386474621
+            }
+          ],
+          "textWidth": 130.0367431640625,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "5e42a11e-67f6-e426-a599-4fa3848f5d98",
+        "number": 24
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "bb1333c1-f40a-4a82-9b7a-e08f48ed910d"
+        },
+        "target": {
+          "id": "152bcd5c-9a2e-4f74-b2ce-ba798635baf9"
+        },
+        "id": "2cac65b1-f5c5-472b-a81d-efd3e73a8312",
+        "z": 24,
+        "objectID": "837d0a64-9f8e-a52d-1d87-ff829d7994dc"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"idc6c121cf-3150-5f6e-fcaf-c0a3fd74508f\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 501,
+          "y": 762.3383268214596
+        },
+        "size": {
+          "width": 123,
+          "height": 68.5156788087323
+        },
+        "angle": 0,
+        "label": "<p>reject <span data-role=\"tag\" data-value=\"e9f1ff85-a836-8d3c-3726-e02eea2ec172\" id=\"idc7378719-60af-dca4-ea5e-16b7f60b77a6\" data-type=\"term\">optimization request</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position2",
+        "id": "dbc50e97-548d-402a-a720-4469574ff957",
+        "z": 25,
+        "labelLayout": {
+          "labelBoxWidth": 115.44094848632812,
+          "fullString": "REJECT OPTIMIZATION REQUEST",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "REJECT",
+              "width": 41.37451171875,
+              "x": 37.03321838378906,
+              "y": -0.07686136474609029
+            },
+            {
+              "text": "OPTIMIZATION",
+              "width": 86.04730224609375,
+              "x": 14.696823120117188,
+              "y": 20.923176135253907
+            },
+            {
+              "text": "REQUEST",
+              "width": 55.05970764160156,
+              "x": 30.19062042236328,
+              "y": 41.9232136352539
+            }
+          ],
+          "textWidth": 86.04730224609375,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "c66c2495-4dfc-cbd2-2c04-7af8ffc80c5d",
+        "number": 28
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "152bcd5c-9a2e-4f74-b2ce-ba798635baf9"
+        },
+        "target": {
+          "id": "dbc50e97-548d-402a-a720-4469574ff957"
+        },
+        "id": "14463f3d-7be7-4232-9a61-170a95292730",
+        "z": 26,
+        "objectID": "6006950c-0aae-5a82-8538-8ac00a0e2e36"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "pill",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id5adcaa0d-14a3-c7d9-b025-65d981d854f7\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 264,
+          "y": 831
+        },
+        "size": {
+          "width": 123,
+          "height": 26.730302646130834
+        },
+        "angle": 0,
+        "label": "<p>end&nbsp;</p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position3",
+        "id": "b7d87d94-fdcf-4a4f-be2b-1439b5ae8c71",
+        "z": 27,
+        "labelLayout": {
+          "labelBoxWidth": 85.20472717285156,
+          "fullString": "END ",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "END ",
+              "width": 26.17681884765625,
+              "x": 29.513954162597656,
+              "y": 0.030486430358887873
+            }
+          ],
+          "textWidth": 26.17681884765625,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "f6b411e5-4998-d766-87d8-622124742ad5",
+        "number": 30
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "x": 571,
+          "y": 831
+        },
+        "target": {
+          "id": "b7d87d94-fdcf-4a4f-be2b-1439b5ae8c71"
+        },
+        "id": "efc13e5c-833b-468c-92ae-6805ed6a67b5",
+        "z": 28,
+        "objectID": "06c0b5ad-e1c8-4442-2046-dc5aab8d5446",
+        "vertices": [
+          {
+            "x": 571,
+            "y": 847
+          }
+        ]
+      },
+      {
+        "type": "tp.Element",
+        "shape": "flowchartRectangle",
+        "labelVAlign": "center",
+        "isNumbered": true,
+        "outsideNumbers": true,
+        "displayCase": "uppercase",
+        "name": "<p><span data-role=\"tag\" data-value=\"50659f5c-2eed-dd48-1a54-40add28d0de4\" id=\"id290621e6-db90-cf83-4b18-ee4fde362729\" data-type=\"term\">step</span></p>",
+        "position": {
+          "x": 65.99999999999999,
+          "y": 762.0961662258258
+        },
+        "size": {
+          "width": 105,
+          "height": 69
+        },
+        "angle": 0,
+        "label": "<p>process <span data-role=\"tag\" data-value=\"e9f1ff85-a836-8d3c-3726-e02eea2ec172\" id=\"id91efe64c-72f4-6e31-af78-c75feae4e08d\" data-type=\"term\">optimization request</span></p>",
+        "strokeStyle": "solid",
+        "hasName": true,
+        "labelPosition": "internal",
+        "numberPosition": "position2",
+        "id": "35657b5d-6ad8-438b-b899-3d8b884505c3",
+        "z": 29,
+        "labelLayout": {
+          "labelBoxWidth": 97.44094848632812,
+          "fullString": "PROCESS OPTIMIZATION REQUEST",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "PROCESS",
+              "width": 55.04148864746094,
+              "x": 21.199729919433594,
+              "y": 0.16529943237305034
+            },
+            {
+              "text": "OPTIMIZATION",
+              "width": 86.04730224609375,
+              "x": 5.6968231201171875,
+              "y": 21.165336932373048
+            },
+            {
+              "text": "REQUEST",
+              "width": 55.05970764160156,
+              "x": 21.19062042236328,
+              "y": 42.16537443237304
+            }
+          ],
+          "textWidth": 86.04730224609375,
+          "textHeight": 63.00011249999999
+        },
+        "objectID": "556c6837-ff58-dccb-e2f6-3f6638e5d726",
+        "number": 26
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "152bcd5c-9a2e-4f74-b2ce-ba798635baf9"
+        },
+        "target": {
+          "id": "35657b5d-6ad8-438b-b899-3d8b884505c3"
+        },
+        "id": "9334e503-4fd2-4dd7-a60a-487fbb5cb3e3",
+        "z": 30,
+        "objectID": "a8765a0b-50a2-4403-d462-46cb6b268a87"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "35657b5d-6ad8-438b-b899-3d8b884505c3"
+        },
+        "target": {
+          "x": 263,
+          "y": 847
+        },
+        "id": "d7068430-f8c7-415f-9bb9-9c4e3cf695d5",
+        "embeds": "",
+        "z": 31,
+        "routing": "straight",
+        "objectID": "33e5db6d-3d78-eb05-6b2f-a3a5b17e43f2",
+        "labelVAlign": "center",
+        "labelPosition": "internal",
+        "vertices": [
+          {
+            "x": 119,
+            "y": 845
+          }
+        ]
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "solid",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "88941e7e-1516-4d5a-9088-2cac85ec81ba"
+        },
+        "target": {
+          "id": "b7d87d94-fdcf-4a4f-be2b-1439b5ae8c71"
+        },
+        "id": "2f0a38f2-b35e-42d0-9959-ee09d3bba589",
+        "embeds": "",
+        "z": 32,
+        "routing": "straight",
+        "objectID": "cf0d2961-1b09-1dc9-29e6-063656d5faed",
+        "labelVAlign": "center",
+        "labelPosition": "internal",
+        "vertices": [
+          {
+            "x": 28,
+            "y": 460
+          },
+          {
+            "x": 30,
+            "y": 846
+          }
+        ],
+        "label": ""
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 158,
+          "y": 432
+        },
+        "size": {
+          "width": 56.692914962768555,
+          "height": 24.207884087380922
+        },
+        "angle": 0,
+        "label": "<p>NO</p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "routing": "straight",
+        "arrowheads": "target",
+        "id": "b8357a16-2846-47a7-95d5-5f0f620d366b",
+        "z": 33,
+        "labelLayout": {
+          "labelBoxWidth": 51.556861877441406,
+          "fullString": "NO",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "NO",
+              "width": 19.6348876953125,
+              "x": 15.960987091064453,
+              "y": 0.42314943237304803
+            }
+          ],
+          "textWidth": 19.6348876953125,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "5a18dbbd-0c4d-3e53-14d6-c309f13dac8b"
+      },
+      {
+        "type": "tp.Link",
+        "isNumbered": false,
+        "arrowheads": "target",
+        "strokeStyle": "none",
+        "displayCase": "uppercase",
+        "showLabel": true,
+        "source": {
+          "id": "de097326-8da9-4039-933f-ab65fe90a7d3"
+        },
+        "target": {
+          "id": "b7d87d94-fdcf-4a4f-be2b-1439b5ae8c71"
+        },
+        "id": "1daee473-8961-4bfd-8722-b5128eef796c",
+        "embeds": "",
+        "z": 34,
+        "routing": "straight",
+        "objectID": "2c7e9388-19d9-3679-359f-25f035391ee2",
+        "labelVAlign": "center",
+        "labelPosition": "internal",
+        "vertices": [
+          {
+            "x": 26,
+            "y": 259
+          },
+          {
+            "x": 30,
+            "y": 845
+          }
+        ]
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 167,
+          "y": 233
+        },
+        "size": {
+          "width": 56.692914962768555,
+          "height": 24.207884087380922
+        },
+        "angle": 0,
+        "label": "<p>NO</p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "routing": "straight",
+        "arrowheads": "target",
+        "id": "02e1717d-fd51-dfc2-ac3b-d64c2005fae7",
+        "z": 34,
+        "labelLayout": {
+          "labelBoxWidth": 51.73762130737305,
+          "fullString": "NO",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "NO",
+              "width": 19.6348876953125,
+              "x": 16.051366806030273,
+              "y": 0.49998125000000115
+            }
+          ],
+          "textWidth": 19.6348876953125,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "ebaf53e9-c2a1-2767-5fb3-28ea34f34244"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 433,
+          "y": 775
+        },
+        "size": {
+          "width": 56.692914962768555,
+          "height": 24.207884087380922
+        },
+        "angle": 0,
+        "label": "<p>NO</p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "routing": "straight",
+        "arrowheads": "target",
+        "id": "40f10938-6de6-92dc-b198-5712125b0d1b",
+        "z": 34,
+        "labelLayout": {
+          "labelBoxWidth": 51.73762130737305,
+          "fullString": "NO",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "NO",
+              "width": 19.6348876953125,
+              "x": 16.051366806030273,
+              "y": 0.49998125000000115
+            }
+          ],
+          "textWidth": 19.6348876953125,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "34fa7997-f287-7482-d765-bac00792764a"
+      },
+      {
+        "type": "tp.Element",
+        "shape": "textboxLabel",
+        "labelVAlign": "center",
+        "isNumbered": false,
+        "outsideNumbers": false,
+        "displayCase": "uppercase",
+        "name": "",
+        "position": {
+          "x": 171,
+          "y": 776
+        },
+        "size": {
+          "width": 42,
+          "height": 24
+        },
+        "angle": 0,
+        "label": "<p>YES</p>",
+        "strokeStyle": "none",
+        "hasName": false,
+        "labelPosition": "internal",
+        "numberPosition": "position4",
+        "routing": "straight",
+        "arrowheads": "target",
+        "id": "63fe8bb5-3164-7037-cbcd-e904218dcb08",
+        "z": 35,
+        "labelLayout": {
+          "labelBoxWidth": 38.15565490722656,
+          "fullString": "YES",
+          "endPad": 0,
+          "lines": [
+            {
+              "text": "YES",
+              "width": 20.8011474609375,
+              "x": 8.677253723144531,
+              "y": 0.31487401885986444
+            }
+          ],
+          "textWidth": 20.8011474609375,
+          "textHeight": 21.000037499999998
+        },
+        "objectID": "50670e7f-1ba0-c92f-1d63-50595b111739"
+      }
+    ]
+  }
+}
